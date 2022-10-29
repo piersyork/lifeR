@@ -30,6 +30,9 @@ n_neighbours <- function(matrix, index) {
 #' @noRd
 #'
 m_iter <- function(matrix) {
+  if (nrow(matrix) != ncol(matrix)) {
+    stop("Matrix must be square")
+  }
   sqr_size <- nrow(matrix)
   out_m <- matrix(0, sqr_size, sqr_size)
 
