@@ -2,8 +2,7 @@ Package: lifeR
 Title: Conway's Game of Life in R
 Version: 0.0.0.9000
 Authors@R: 
-    person("Piers", "York", , "piers.york@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Piers", "York", , "piers.york@gmail.com", role = c("aut", "cre"))
 Description: Play Conway's Game of Life in the RStudio plot window.
 License: MIT + file LICENSE
 Encoding: UTF-8
